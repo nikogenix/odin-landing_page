@@ -1,0 +1,162 @@
+/* GENERAL */
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("img/bricks.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+button {
+  padding: 0.5em;
+  background-color: rgb(96, 84, 167);
+  border-radius: 0% 1em 0% 1em;
+  width: 6em;
+}
+
+/* HEADER */
+header,
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 0.8em;
+}
+
+.logo {
+  font-weight: 900;
+}
+
+header nav {
+  justify-self: flex-end;
+  margin-left: auto;
+  font-weight: 300;
+}
+
+/* HERO */
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text {
+  padding: 1em;
+}
+
+.hero-text > p {
+  padding: 1em 0;
+  text-align: justify;
+}
+
+.hero-img > img {
+  width: 20em;
+  min-width: 94vw;
+  padding-bottom: 1em;
+}
+
+/* INFO */
+
+.info {
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info > h2 {
+  padding: 1em 0;
+}
+
+.box > img {
+  width: 20em;
+  min-width: 93vw;
+  height: 20em;
+  object-fit: cover;
+  padding-bottom: 1em;
+}
+
+.box > p {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* QUOTE */
+
+.quote-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.quote {
+  font-style: italic;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 1em;
+}
+
+/* BANNER */
+
+.signup-banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-banner > .banner {
+  background-color: rgba(10, 7, 20, 0.75);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+}
+
+.banner > p {
+  padding: 1em 0;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+  margin-top: auto;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 0.8em;
+}
